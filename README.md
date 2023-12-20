@@ -32,28 +32,30 @@ names: ['Certifications', 'Community', 'Contact', 'Education', 'Experience', 'In
    - Model performance results are available in the 'yolov5_cv_train' directory.
 
 5. **Training Results:**
+6. 
     ![Screenshot](./figures/results.png)
-   - Training and testing details are documented in the 'yolov5_CV_model.ipynb' file.
+   - Training and testing details are documented in the [Link Text](./yolov5_CV_model.ipynb) file.
 
 ## Model Deployment with Flask
 
 The trained model is deployed in a Flask web application for easy usage.
 
 1. **Web page uploading and detection**
+2. 
    ![Screenshot](./figures/webpage1.png)
    ![Screenshot](./figures/webpage2.png)
 
-2. **Dependencies Installation:**
+3. **Dependencies Installation:**
    - Ensure you have the required dependencies for YOLOv5 installed.
 
-3. **Launch the Web App:**
+4. **Launch the Web App:**
    - Run the following command to start the Flask application:
      ```bash
      python app.py
      ```
    - Visit [http://localhost:5000/](http://localhost:5000/) in your browser.
 
-4. **Testing the Model:**
+5. **Testing the Model:**
    - Choose a CV file and test the model to detect and label CV sections.
 
 ## Additional Resources
