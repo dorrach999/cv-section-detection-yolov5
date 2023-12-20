@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Sections Detection</title>
+</head>
+<body>
+    <h1>YOLOv5 CV Sections Detection</h1>
+
+    <form method="post" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <button type="submit">Upload and Detect</button>
+    </form>
+
+    {% if error %}
+        <p>{{ error }}</p>
+    {% endif %}
+
+    {% if annotated_image_path %}
+        <h2>Results:</h2>
+        <img src="{{ url_for('static', filename='annotated_image.jpg') }}" alt="Annotated Image with Blocks">
+        <p>{{ results }}</p>
+    {% endif %}
+</body>
+</html>
