@@ -29,10 +29,9 @@ names: ['Certifications', 'Community', 'Contact', 'Education', 'Experience', 'In
      ```bash
      !python train.py --device 0 --batch-size 16 --epochs 150 --img 640 --data data/cvdata.yaml --cfg models/yolov5m.yaml --weights yolov5m.pt --name yolov5_cv_train
      ```
-   - Model performance results are available in the [yolov5_cv_train](yolov5_cv_train) directory.
 
 5. **Training Results:**
-6. 
+ 
     ![Screenshot](./figures/results.png)
    - Training and testing details are documented in the [yolov5_CV_model.ipynb](yolov5_CV_model.ipynb) file.
 
@@ -41,7 +40,7 @@ names: ['Certifications', 'Community', 'Contact', 'Education', 'Experience', 'In
 The trained model is deployed in a Flask web application for easy usage.
 
 1. **Web page uploading and detection**
-2. 
+   
    ![Screenshot](./figures/webpage1.png)
    ![Screenshot](./figures/webpage2.png)
 
