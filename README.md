@@ -9,7 +9,6 @@ This repository contains code for training a custom YOLOv5 model to detect and l
 1. **Data Collection:**
 
    - The dataset was created using custom data with labeled CV sections.
-   - Raw data was obtained from [this Google Drive link](https://drive.google.com/drive/folders/16rtlLrbjtRNnqWQVCSblqB1Gneos68kP?usp=sharing).
 
 2. **Data Processing:**
 
